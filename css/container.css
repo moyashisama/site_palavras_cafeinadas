@@ -1,0 +1,58 @@
+.container{
+    width:100%;
+    max-width: 1440px;
+    height: 559px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.gradient{
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(80.87% 481.72% at 15.17% 35.76%, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.36) 51.88%, rgba(0, 0, 0, 0.16) 100%); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.meio-container{
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    color:white;
+}
+
+.meio-container h1{
+    font-size: 56px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700px;
+}
+
+.meio-container p{
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400px;
+    margin-top: 1rem;
+    line-height: 25px;
+}
+
+.btn{
+    background-color: rgba(143, 84, 46, 1);
+    padding: 10px;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    margin-top:1rem;
+    cursor: pointer;
+}

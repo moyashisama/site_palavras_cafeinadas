@@ -33,24 +33,22 @@ header{
     font-family: 'Cormorant Garamond', serif;
     background: rgba(87, 41, 11, 1);
     height: 100px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .nav-list{
     list-style:none;
     display:flex;
     font-size: 18px;
+    position: relative;
+    z-index: 2;
 }
 
 .nav-list li{
     letter-spacing: 3px;
     margin-left: 32px;
 }
-/*
-nav{
-    background: url("") no-repeat center center;
-    background-size: cover;
-    height: 559px;
-}
-*/
 
 .mobile-menu{
     display: none;
