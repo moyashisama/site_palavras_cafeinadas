@@ -4,8 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content = "width=devide-width, initial-scale=1">
     <title>Palavras Cafeinadas</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/container.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/slide.css">
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
 
 </head>
 
@@ -34,12 +38,60 @@
         </div>
     </div>
 
-    <main>Principal
+    <main id="content">
+        <section id="home">
+            <div id="cta">
+                <h1 class="tittle">
+                    Sobre nós
+                </h1>
+                <p class="description">
+                    A principal proposta da Cafeteria Palavras Cafeinadas é oferecer um <br> 
+                    espaço aconchegante, contendo um ambiente moderno e um <br> atendimento completo,
+                    nela é possível provar refeições saborosas <br> e ler excelentes livros. <br> <br>
+                    O sonho de Carolina era criar um espaço aonde pudesse unir seu <br> amor por culinária
+                    e a enorme paixão por literatura, venha saber <br> mais dessa jornada:
+                </p>
 
+                <button class="btn2">FALE CONOSCO</button>
+            </div>
+
+            <div id="banner">
+                <img src="/imgs/circulocafes.png" alt="">    
+            </div>
+        </section>
     </main>
-    <aside>Relacionado</aside>
+
+    <aside>
+        <div class="slide-container swiper">
+            <div class = "slide-content">
+                <div class = "card-wrapper swiper-wrapper">
+                    <div class = "card swiper-slide">
+                        <div class = "image-content">
+                            <span class="overlay"></span>
+                            <div class = "card-image">
+                                <img src="/imgs/Brigadeiro 1 .png" alt="" class="card-img">
+
+                            </div>
+                        </div>
+                        <div class ="card-content">
+                            <h2 class="name">Brigadeiro De Capuccino</h2>
+                            <p class="about">O brigadeiro de cappuccino é uma das <br> guloseimas que enfeitam o balcão da <br> doceria...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </aside>
+
     <footer>Rodape</footer>
+
     <script src="/js/mobile-navbar.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/slide-script.js"></script>
 </body>
+
 
 </html>
