@@ -1,8 +1,15 @@
+/*
 #home{
     width: 100%;
     display: flex;
     min-height: calc(100vh-659px);
     height: 667px ;
+}
+*/
+#home{
+    width: 100%;
+    display: flex;
+    min-height: 667px ;
 }
 
 section{
@@ -21,6 +28,7 @@ section{
     border-radius: 8%;
     width:352px;
     height: 340px;
+    margin-top:110px;
     
 }
 
@@ -28,16 +36,25 @@ section{
     font-size: 2.4rem;
     color: rgba(31, 12, 0, 1);
     font-family: 'Cormorant Garamond',serif;
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        rgba(251, 201, 168, 1) 50%
+    );
+    max-width: 250px;
+    text-align: center;
 }
 
 #cta.description{
-    font-size: 1rem;
-    font-family: "Open Sans", sans-serif;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
     color: rgba(31, 12, 0, 1);
     
 }
 
 .btn2{
+    max-width: 200px;
     display: flex;
     gap: 24px;
     padding: 12px 32px;
