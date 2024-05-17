@@ -87,6 +87,8 @@ form button{
     font-size: 18px;
     background:rgba(143, 84, 46, 1) ;
     outline: none;
+    border: none;
+    width: 70%;
 }
 
 .informacao img{
@@ -132,7 +134,16 @@ figcaption{
 
 }
 
+@media(max-width:999px){
+    .item{
+        grid-template-columns: 1fr;
+    }
 
+    .contact{
+        display:none;
+    }
+
+}
 
 /*
 .telefone{

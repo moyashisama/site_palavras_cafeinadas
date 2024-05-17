@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="/css/slide.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/contato.css">
-
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
 </head>
     <body>
         <header>
@@ -61,9 +65,102 @@
             </section>
         </main>
 
-        <section>
-            asds
-        </section>
+        <article>
+            <div class="slide-container swiper">
+                <div class="slide-content ">
+                    
+                    <div class="card-wrapper swiper-wrapper custom-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="/imgs/Brigadeiro 1 .png" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Brigadeiro de Cappucino</h2>
+                                <p class="about">O Brigadeiro de cappuccino é uma das <br> guloseimas que enfeitam o balcão da <br> doceria...</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="/imgs/Brigadeiro 1 .png" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Brigadeiro de Cappucino</h2>
+                                <p class="about">O Brigadeiro de cappuccino é uma das <br> guloseimas que enfeitam o balcão da <br> doceria...</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="/imgs/Brigadeiro 1 .png" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Brigadeiro de Cappucino</h2>
+                                <p class="about">O Brigadeiro de cappuccino é uma das <br> guloseimas que enfeitam o balcão da <br> doceria...</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="/imgs/Brigadeiro 1 .png" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Brigadeiro de Cappucino</h2>
+                                <p class="about">O Brigadeiro de cappuccino é uma das <br> guloseimas que enfeitam o balcão da <br> doceria...</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="/imgs/Brigadeiro 1 .png" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Brigadeiro de Cappucino</h2>
+                                <p class="about">O Brigadeiro de cappuccino é uma das <br> guloseimas que enfeitam o balcão da <br> doceria...</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="/imgs/Brigadeiro 1 .png" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Brigadeiro de Cappucino</h2>
+                                <p class="about">O Brigadeiro de cappuccino é uma das <br> guloseimas que enfeitam o balcão da <br> doceria...</p>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </article>
 
         <section>
             <h2>ENTRE EM CONTATO</h2>
@@ -118,6 +215,28 @@
                 <div class ="right">Todos os direitos reservados ©</div>
             </div>
         </footer>
+        <script src="js/swiper-bundle.min.js"></script>
+        <script src="js/slide-script.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".slide-content", {
+              slidesPerView: 3,
+              spaceBetween: 30,
+              slidesPerGroup: 3,
+              loop: true,
+              loopFillGroupWithBlank: true,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+          </script>
 
+        
     </body>
+
 </html>
