@@ -5,13 +5,15 @@ article{
     align-items: center;
     justify-content: center;
     background-color: rgba(128, 69, 31, 1);
-    
+
 }
+
 
 .slide-container{
     max-width: 1440px;
     width: 100%;
     padding: 40px 0;
+    
 }
 
 .card-image{
@@ -35,6 +37,7 @@ article{
 
 .slide-content{
     margin: 0 40px;
+    
 }
 
 .image-content, .card-content{
@@ -83,16 +86,16 @@ article{
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
+    margin-bottom: 20px;
+
 }
 
-.linha2::after{
-    content: "";
-    position:absolute;
-    display:block;
-    left: 1;
-    bottom: 0;
-    width: 70%;
-    height: 2px;
-    background-color: rgba(178, 120, 74, 1);
-    margin-left: 32px;
+.aa hr{
+    hr{
+        margin: auto;
+        width: 4.5rem;
+        border: 0; 
+        border-top: 3px solid #FFF;
+    }
 }
+

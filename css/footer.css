@@ -32,7 +32,7 @@ footer{
     justify-content: space-between;
 }
 
-@media(max-width: 999px) {
+@media(max-width: 768px) {
     .footer-content {
         flex-direction: column; 
        

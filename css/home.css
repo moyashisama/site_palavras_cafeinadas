@@ -76,7 +76,7 @@ section{
 }
 
 
-@media(max-width:999px){
+@media(max-width:768px){
     #cta{
         width: 100%;
     }
@@ -92,5 +92,8 @@ section{
     .btn2{
         max-width: 80%;
         display: center;
+    }
+    #banner{
+        display:none;
     }
 }

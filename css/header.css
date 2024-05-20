@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header{
+    display: flex;
+    height: 100px;
+    background-color: rgb(101, 67, 33);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .header-mobile{
+    position: fixed;
+    top:0;
+    display: flex;
+
+    background-color: rgb(101, 67, 33);
+    width: 100%;
+ 
+    flex-direction: row;
+    z-index: 1001;
+    
+  }
+  .logo-mobile{
+    flex: 1 1 auto;
+    height: 6vh;
+    padding: 0.4em 0 0.4em 3em;
+    img {
+      max-width:100%;
+      object-fit: contain;
+    }
+    
+  }
+  .title-mobile{
+
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    font-size: 3vh;
+    flex: 4 1 auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+  }
+  .hamburger-container{
+    flex: 1 1 auto;
+    
+  }
+
+
+  @media(max-width:768px){
+    .header{
+       display:none;
+     }
+
+  }
+
+  @media(min-width:768px){
+      .header-mobile{
+        display:none;
+      }
+  }
+    
+  
+  .menuItem {
+    display: block;
+    margin: 2rem 4rem;
+    font-size: 1.8rem;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .menuItem:hover {
+    text-decoration: underline;
+  }
+  .menuIcon ,.closeIcon{
+    font-size: 1.5em !important;
+    color: rgba(143, 84, 46, 1);
+  }
+  .hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 0.75rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 0px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 32px;
+  }
+  
+  .closeIcon {
+    display: none;
+  }
+  
+  .menu {
+    position: fixed;
+    transform: translateY(-120%);
+    transition: transform 0.2s;
+    top: 6vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #F5F3ED;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+    text-align: center;
+    
+  }
+  
+  .showMenu {
+    transform: translateY(0);
+  }
+
+  .bloco {
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    padding: 45px;
+    color: rgba(240, 240, 240, 1);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: 500;
+
+    hr{
+        margin: auto;
+        width: 4.5rem;
+        border: 0; 
+        border-top: 3px solid #8f542e;
+
+    }
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tel {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.bloco-tel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    color: rgba(240, 240, 240, 1);
+    padding-top: 9px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bloco-tel img {
+    margin-right: 10px;
+}
+
+.linha {
+    width: 30%;
+    height: 2px;
+    margin-left: 64px;
+    margin-top: 1px;
+    margin-bottom: 59px;
+    background-color: rgba(178, 120, 74, 1);
+}
+
+.over {
+    padding: 30px 0;
+    background: linear-gradient(to bottom,  white 0%,white 50%,#80451f 50%,#80451f 100%);
+}
+
+.over img {
+    width: 100%;
+    height: auto;
+}

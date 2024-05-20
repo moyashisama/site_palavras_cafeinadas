@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content = "width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Palavras Cafeinadas</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap">
     <link rel="stylesheet" href="./css/style.css">
@@ -12,299 +13,273 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/contato.css">
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
-    
+    <link rel="stylesheet" href="./css/header.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <style>
-        .header{
-            display: flex;
-            height: 100px;
-            background-color: rgb(101, 67, 33);
-            width: 100%;
-            justify-content: center;
-            align-items: center;       
-        }
 
-        .bloco{
-            width: 20%;
-            height: 100px;
-            text-align: center;
-            padding: 45px;
-            color: rgba(240, 240, 240, 1);
-            font-family: 'Cormorant Garamond', serif;
-            font-size: 18px;
-            font-weight: 500;
-        }
-
-        .logo img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
-
-        .tel{
-            width: 20px;
-            height: 20px;
-            text-align: center;
-        }
-
-        .bloco-tel {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 20%;
-            height: 100px;
-            text-align: center;
-            color: rgba(240, 240, 240, 1);
-            padding-top:9px;
-            font-family: 'Cormorant Garamond', serif;
-            font-size: 18px;
-            font-weight: 500;
-        }
-        .bloco-tel img{
-            margin-right: 10px;
-        }
-
-        .linha2{
-            width: 60%;
-            height: 1px;
-            margin-left: 20px;
-            margin-top: 5px;
-            margin-bottom: 50px;
-        }
     </style>
 </head>
-    <body>
-        <!--
-        <header>
-            <a class = "logo" href="/">Palavras Cafeinadas</a>
-            <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-            </div>
-            <ul class="nav-list">
-                <li><a href="/">Sobre nós</a></li>
-                <li><a href="/">Cafeteria</a></li>
-                <li><a href="/">Contato</a></li>
-                <li><a href="/">19-991256972</a></li>
-            </ul>
-        </header>
-        -->
 
-        <div class="header">
-            <div class="bloco"><a href="">Sobre nós<div class="linha2"></div> </a></div>
-            <div class="bloco"><a href="">Cafeteria<div class="linha2"></div></a>
-            </div>
-            <div class="logo">
-                <img src="./imgs/Logo.png" alt="" class="">
-            </div>
-            <div class="bloco"><a href="">Contato<div class="linha2"></div></a></div>
-            <div class="bloco-tel">
-                <img src="./imgs/Icon - Phone.png" alt="" class="tel">19-991256972
+<body>
+
+    <div class="header">
+        <div class="bloco"><a href="">Sobre nós</a><hr/>
+        </div>
+        <div class="bloco"><a href="">Cafeteria</a><hr/>
+        </div>
+        <div class="logo">
+            <img src="./imgs/Logo.png" alt="" class="">
+        </div>
+        <div class="bloco"><a href="">Contato</a><hr/></div>
+        <div class="bloco-tel">
+            <a href="https://api.whatsapp.com/send?phone=5519991256972">
+                <img src="./imgs/Icon - Phone.png" alt="" class="tel">
+            </a>
+            <div class="telefone">
+                19-991256972
             </div>
         </div>
+    </div>
 
-        <div class="container">
-            <div class = "gradient"></div>
-            <img src = "./imgs/imagemcafe.png">
-            <div class="meio-container">
-                <h1>Leia acompanhando <br> de uma culinária de <br>qualidade</h1>
-                <p>Aonde a paixão por livros e o amor por café <br>sempre tem lugar á mesa.</p>
-             
-                <button class="btn">VENHA CONHECER
+    <div class="header-mobile">
+        <div class="logo-mobile">
+            <img src="./imgs/logo_escura.png">
+        </div>
+        <div class="title-mobile">
+            Palavras Cafeinadas
+        </div>
+
+        <div class="hamburger-container">
+            <button class="hamburger">
+                <i class="menuIcon material-icons">drag_handle</i>
+                <i class="closeIcon material-icons">close</i>
+            </button>
+            <ul class="menu">
+                <li><a class="menuItem" href="#">Home</a></li>
+                <li><a class="menuItem" href="#">Sobre nós</a></li>
+                <li><a class="menuItem" href="#">Cafeteria</a></li>
+                <li><a class="menuItem" href="#">Contato</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="gradient"></div>
+        <div class="meio-container">
+            <h1>Leia acompanhando <br> de uma culinária de <br>qualidade</h1>
+            <p>Aonde a paixão por livros e o amor por café <br>sempre tem lugar á mesa.</p>
+
+            <button class="btn">VENHA CONHECER
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+
+        </div>
+    </div>
+
+    <main id="content">
+        <section id="home">
+            <div id="cta">
+                <h1 class="tittle">
+                    SOBRE NÓS
+                </h1>
+                <p class="description">
+                    A principal proposta da Cafeteria Palavras Cafeinadas é oferecer um <br>
+                    espaço aconchegante, contendo um ambiente moderno e um <br> atendimento completo,
+                    nela é possível provar refeições saborosas <br> e ler excelentes livros. <br> <br>
+                    O sonho de Carolina era criar um espaço aonde pudesse unir seu <br> amor por culinária
+                    e a enorme paixão por literatura, venha saber <br> mais dessa jornada:
+                </p>
+
+                <button class="btn2">FALE CONOSCO
                     <i class="fa-solid fa-arrow-right-long"></i>
                 </button>
+            </div>
 
+            <div id="banner">
+                <img src="./imgs/circulocafes.png" alt="">
+            </div>
+        </section>
+    </main>
+
+    <div class="over">
+        <img src="./imgs/Cafe onda.png" alt="">
+    </div>
+
+    <article>
+        <div class="slide-container swiper">
+            <div class="aa">
+                <h2 class="linha2">CAFETERIA</h2></hr>
+            </div>
+            <div class="slide-content ">
+
+                <div class="card-wrapper swiper-wrapper custom-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./imgs/Brigadeiro 1 .png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Brigadeiro de Cappucino</h2>
+                            <p class="about">O Brigadeiro de cappuccino é uma das <br> guloseimas que enfeitam o balcão
+                                da <br> doceria...</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./imgs/Bolo.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Bolo De Chocolate</h2>
+                            <p class="about">O bolo de chocolate é uma das sobremesas <br> mais pedidas da Cafeteria,
+                                ele possui um <br> com...</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./imgs/Pão-de-mel.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Pão De Mel</h2>
+                            <p class="about">O pão de mel é um dos doces mais <br> tradicionais que temos, ele é
+                                recheado com <br> doce de leite...</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./imgs/Sorvete.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Sorvete de Café</h2>
+                            <p class="about">O sorvete em versão de café pode ser <br>aproveitado sozinho ou com um
+                                pedacinho <br>de bolo no fim...</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./imgs/Brigadeiro 1 .png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Brigadeiro de Cappucino</h2>
+                            <p class="about">O Brigadeiro de cappuccino é uma das <br> guloseimas que enfeitam o balcão
+                                da <br> doceria...</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./imgs/Bolo.jpeg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Bolo de Chocolate</h2>
+                            <p class="about">O bolo de chocolate é uma das sobremesas mais pedidas da Cafeteria, ele
+                                possui um <br> recheio com...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </article>
+
+    <section>
+        <h2>ENTRE EM CONTATO</h2>
+        <div class="container-contato">
+            <div class="item">
+                <div class="contact">
+                    <div class="informacao">
+                        <img src="./imgs/call_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Ícone de telefone"> 19-991256972
+                    </div>
+                    <div class="informacao">
+                        <img src="./imgs/mail_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Ícone de email">
+                        contato@gmail.com
+                    </div>
+
+                    <div class="informacao">
+                        <img src="./imgs/location_on_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Ícone de localizacao">
+                        Av. Paulista, 1324 - Bela <br> Vista, São Paulo - SP, <br> 01310-100
+                    </div>
+
+                    <div class="linha"></div>
+
+                    <div class="informacao">
+                        <img src="./imgs/instagram.png" alt="Ícone do instagram"> @palavrascafeinadas
+                    </div>
+
+                    <div class="informacao">
+                        <img src="./imgs/facebook.png" alt="Ícone de localizacao"> Palavras Cafeinadas
+                    </div>
+                    <div class="container-fig">
+                        <figure>
+                            <img src="./imgs/logo_branca 2.png" alt="">
+                            <figcaption>Palavras Cafeinadas</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="submit-form">
+                    <form action="" method="">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" cols="30" rows="10" placeholder=""></textarea>
+                        <button type="submit">Enviar Mensagem
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
 
-        <main id="content">
-            <section id="home">
-                <div id="cta">
-                    <h1 class="tittle">
-                        SOBRE NÓS
-                    </h1>
-                    <p class="description">
-                        A principal proposta da Cafeteria Palavras Cafeinadas é oferecer um <br> 
-                        espaço aconchegante, contendo um ambiente moderno e um <br> atendimento completo,
-                        nela é possível provar refeições saborosas <br> e ler excelentes livros. <br> <br>
-                        O sonho de Carolina era criar um espaço aonde pudesse unir seu <br> amor por culinária
-                        e a enorme paixão por literatura, venha saber <br> mais dessa jornada:
-                    </p>
+        <div class="encontre">
+            <h1>NOS ENCONTRE AQUI:</h1>
+            <div class="icones"><img src="./imgs/fac.png" alt="" class=""></div>
+            <div class="icones"><img src="./imgs/ins.png" alt=""></div>
+            <div class="icones"><img src="./imgs/tel.png" alt="" class=""></div>
+        </div>
+    </section>
 
-                    <button class="btn2">FALE CONOSCO
-                        <i class="fa-solid fa-arrow-right-long"></i>
-                    </button>
-                </div>
+    <footer>
+        <div class="left">Desenvolvido por Unect Jr</div>
+        <div class="right">Todos os direitos reservados ©</div>
+    </footer>
+    <script src="./js/mobile-navbar.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/slide-script.js"></script>
+    <script src="https://kit.fontawesome.com/7227de6bb2.js" crossorigin="anonymous"></script>
 
-                <div id="banner">
-                    <img src="./imgs/circulocafes.png" alt="">    
-                </div>
-            </section>
-        </main>
-
-        <article>
-            <h2 class ="linha2">CAFETERIA</h2>
-           
-            <div class="slide-container swiper">
-                <div class="slide-content ">
-                    
-                    <div class="card-wrapper swiper-wrapper custom-wrapper">
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="./imgs/Brigadeiro 1 .png" alt="" class="card-img">
-                                </div>
-                            </div>
-
-                            <div class="card-content">
-                                <h2 class="name">Brigadeiro de Cappucino</h2>
-                                <p class="about">O Brigadeiro de cappuccino é uma das <br> guloseimas que enfeitam o balcão da <br> doceria...</p>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="./imgs/Bolo.jpeg" alt="" class="card-img">
-                                </div>
-                            </div>
-
-                            <div class="card-content">
-                                <h2 class="name">Bolo De Chocolate</h2>
-                                <p class="about">O bolo de chocolate é uma das sobremesas <br> mais pedidas da Cafeteria, ele possui um <br> com...</p>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="./imgs/Pão-de-mel.jpeg" alt="" class="card-img">
-                                </div>
-                            </div>
-
-                            <div class="card-content">
-                                <h2 class="name">Pão De Mel</h2>
-                                <p class="about">O pão de mel é um dos doces mais <br> tradicionais que temos, ele é recheado com <br> doce de leite...</p>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="./imgs/Sorvete.jpeg" alt="" class="card-img">
-                                </div>
-                            </div>
-
-                            <div class="card-content">
-                                <h2 class="name">Sorvete de Café</h2>
-                                <p class="about">O sorvete em versão de café pode ser <br>aproveitado sozinho ou com um pedacinho <br>de bolo no fim...</p>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="./imgs/Brigadeiro 1 .png" alt="" class="card-img">
-                                </div>
-                            </div>
-
-                            <div class="card-content">
-                                <h2 class="name">Brigadeiro de Cappucino</h2>
-                                <p class="about">O Brigadeiro de cappuccino é uma das <br> guloseimas que enfeitam o balcão da <br> doceria...</p>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="./imgs/Bolo.jpeg" alt="" class="card-img">
-                                </div>
-                            </div>
-
-                            <div class="card-content">
-                                <h2 class="name">Bolo de Chocolate</h2>
-                                <p class="about">O bolo de chocolate é uma das sobremesas mais pedidas da Cafeteria, ele possui um <br> recheio com...</p>
-                            </div>
-                        </div>
-                    </div>   
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </article>
-
-        <section>
-            <h2>ENTRE EM CONTATO</h2>
-            <div class="container-contato">
-                <div class="item">
-                    <div class="contact">
-                        <div class="informacao">
-                            <img src="./imgs/call_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Ícone de telefone"> 19-991256972
-                        </div>
-                        <div class="informacao">
-                            <img src="./imgs/mail_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Ícone de email"> contato@gmail.com
-                        </div>
-
-                        <div class="informacao">
-                            <img src="./imgs/location_on_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Ícone de localizacao"> Av. Paulista, 1324 - Bela <br> Vista, São Paulo - SP, <br> 01310-100
-                        </div>
-                        
-                        <div class="linha"></div>   
-
-                        <div class="informacao">
-                            <img src="./imgs/instagram.png" alt="Ícone do instagram"> @palavrascafeinadas
-                        </div>
-
-                        <div class="informacao">
-                            <img src="./imgs/facebook.png" alt="Ícone de localizacao"> Palavras Cafeinadas
-                        </div>
-                        <div class="container-fig">
-                            <figure>
-                                <img src="./imgs/logo_branca 2.png" alt="">
-                                <figcaption>Palavras Cafeinadas</figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="submit-form">
-                        <form action="" method =""> 
-                            <label for="name">Nome</label>
-                            <input type="text" id="name" name="name" placeholder="">
-                            <label for="email">Email</label>
-                            <input type="text" id="email" name="email" placeholder="">
-                            <label for="mensagem">Mensagem</label>
-                            <textarea id="mensagem" name="mensagem" cols="30" rows="10" placeholder=""></textarea>
-                            <button type="submit">Enviar Mensagem
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-            <div class="encontre">
-                <h1>NOS ENCONTRE AQUI:</h1>
-                <div class="icones"><img src="./imgs/fac.png" alt="" class=""></div>
-                <div class="icones"><img src="./imgs/ins.png" alt=""></div>
-                <div class="icones"><img src="./imgs/tel.png" alt="" class=""></div>
-            </div>
-        </section>
-        
-        <footer>
-                <div class ="left">Desenvolvido por Unect Jr</div>
-                <div class ="right">Todos os direitos reservados ©</div>
-        </footer>
-        <script src="./js/mobile-navbar.js"></script>
-        <script src="./js/swiper-bundle.min.js"></script>
-        <script src="./js/slide-script.js"></script>
-        <script src="https://kit.fontawesome.com/7227de6bb2.js" crossorigin="anonymous"></script>
-        
-    </body>
+</body>
 
 </html>

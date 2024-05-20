@@ -97,10 +97,6 @@ form button:hover{
     background:rgba(202, 142, 103, 1);
 }
 
-
-
-
-
 .informacao img{
     width: 20px;
     height: 20px;
@@ -113,15 +109,6 @@ form button:hover{
     margin-left: 20px;
     margin-top: 20px;
     font-family: sans-serif;
-}
-
-.linha{
-    width: 60%;
-    height: 1px;
-    background-color: #fff;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 40px;
 }
 
 figure{
@@ -150,7 +137,7 @@ figcaption{
     margin-left:98px;
 }
 
-@media(max-width:999px){
+@media(max-width:768px){
     .item{
         grid-template-columns: 1fr;
     }
@@ -159,4 +146,8 @@ figcaption{
         display:none;
     }
 
+    section h2{
+        margin-left: 0px;
+        margin-top: 30px
+    }
 }

@@ -62,7 +62,7 @@ header{
     margin: 8px;
 }
 
-@media(max-width: 999px){
+@media(max-width: 768px){
     body{
         overflow-x: hidden;
     }
