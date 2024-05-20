@@ -13,9 +13,67 @@
     <link rel="stylesheet" href="./css/contato.css">
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     
+    <style>
+        .header{
+            display: flex;
+            height: 100px;
+            background-color: rgb(101, 67, 33);
+            width: 100%;
+            justify-content: center;
+            align-items: center;       
+        }
 
+        .bloco{
+            width: 20%;
+            height: 100px;
+            text-align: center;
+            padding: 45px;
+            color: rgba(240, 240, 240, 1);
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .logo img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .tel{
+            width: 20px;
+            height: 20px;
+            text-align: center;
+        }
+
+        .bloco-tel {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20%;
+            height: 100px;
+            text-align: center;
+            color: rgba(240, 240, 240, 1);
+            padding-top:9px;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .bloco-tel img{
+            margin-right: 10px;
+        }
+
+        .linha2{
+            width: 60%;
+            height: 1px;
+            margin-left: 20px;
+            margin-top: 5px;
+            margin-bottom: 50px;
+        }
+    </style>
 </head>
     <body>
+        <!--
         <header>
             <a class = "logo" href="/">Palavras Cafeinadas</a>
             <div class="mobile-menu">
@@ -29,6 +87,20 @@
                 <li><a href="/">19-991256972</a></li>
             </ul>
         </header>
+        -->
+
+        <div class="header">
+            <div class="bloco"><a href="">Sobre nós<div class="linha2"></div> </a></div>
+            <div class="bloco"><a href="">Cafeteria<div class="linha2"></div></a>
+            </div>
+            <div class="logo">
+                <img src="./imgs/Logo.png" alt="" class="">
+            </div>
+            <div class="bloco"><a href="">Contato<div class="linha2"></div></a></div>
+            <div class="bloco-tel">
+                <img src="./imgs/Icon - Phone.png" alt="" class="tel">19-991256972
+            </div>
+        </div>
 
         <div class="container">
             <div class = "gradient"></div>
