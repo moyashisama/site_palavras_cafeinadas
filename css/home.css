@@ -54,9 +54,43 @@ section{
 }
 
 .btn2{
-    max-width: 200px;
+    max-width: 40%;
     display: flex;
     gap: 24px;
     padding: 12px 32px;
     text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(143, 84, 46, 1);
+    font-size: 18px;
+    line-height: 33px;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: all 0.3s ease;
+}
+
+.btn2:hover{
+    background: rgba(202, 142, 103, 1);
+}
+
+
+@media(max-width:999px){
+    #cta{
+        width: 100%;
+    }
+
+    #cta.tittle{
+        font-size: 10px;
+    }
+
+    #cta.description{
+        font-size: 40px;
+    }
+
+    .btn2{
+        max-width: 80%;
+        display: center;
+    }
 }

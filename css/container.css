@@ -58,4 +58,59 @@ img{
     font-weight: 800;
     font-size: 18px;
     line-height: 33px;
+    transition: all 0.3s ease;
 }
+
+.btn:hover{
+    background: rgba(202, 142, 103, 1);
+}
+
+.encontre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    display: none;
+}
+
+.encontre h1{
+    width: 100%;
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.encontre img{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+
+@media(max-width:999px){
+
+    .meio-container p{
+        display:none;
+    }
+
+    .meio-container h1{
+        font-size: 30px;
+        margin-left: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .container{
+        width:100%;
+        max-width: 490px;
+        height: 241.34px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .encontre{
+        display: flex;
+    }
+
+}
+
+
